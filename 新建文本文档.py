@@ -36,6 +36,6 @@ else:
             fan=fan+1
         times=times-1
         true1=true1+1
-        if true1%100000 == 0:
+        if true1%1000000 == 0:
             #print(true1)
             print("正面:"+str(zheng)+",反面:"+str(fan)+",总次数:"+str(true1)+"频数:"+str(decimal.Decimal(zheng)/ decimal.Decimal(true1)))
