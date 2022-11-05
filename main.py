@@ -1,6 +1,6 @@
 import random
 import time
-import msvcrt
+#import msvcrt
 import decimal
 
 try:
@@ -24,8 +24,8 @@ if times > 0:
         times=times-1
         true1=true1+1
         print("正面:"+str(zheng)+",反面:"+str(fan)+",总次数:"+str(true1)+"频数:"+str(decimal.Decimal(zheng)/ decimal.Decimal(true1)))
-    print("请按任意键退出~")
-    ord(msvcrt.getch())
+#    print("请按任意键退出~")
+#    ord(msvcrt.getch())
 else:
     while True:
         cdef int shape=random.randint(0,1)
