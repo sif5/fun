@@ -28,4 +28,4 @@ jobs:
         python -m pip install --upgrade pip
     - name: 开抛
       run: |
-        python main.py
+        python 新建文本文档.py
