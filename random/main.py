@@ -2,7 +2,6 @@ import random
 import time
 #import msvcrt
 import decimal
-
 try:
     times1=int(input("请输入想掷骰子的次数（0=一直骰）"))
 except:
